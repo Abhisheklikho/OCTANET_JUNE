@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #ff8400; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(./images/bnn.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #e9e8e547;
+    height: 98%;
+    width: 65%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(28, 195, 207, 0.68);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.983);
+    height: 500px;
+    width: 400px;
+  
+    /* Increase height and width for larger screens */
+    @media (min-width: 768px) {
+        height: 600px;
+        width: 500px;
+    }
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: gray;
+    /* Replace the following line with your profile image */
+    background-image: url('https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  
+    /* Increase size for larger screens */
+    @media (min-width: 768px) {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.form-group {
+    margin-bottom: 10px;
+    text-align: left;
+  
+    /* Increase font size for larger screens */
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+  
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+  
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  
+    /* Increase size for larger screens */
+    @media (min-width: 768px) {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+  
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    /* border: 2px solid #000000; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  
+    /* Styles for larger screens */
+    @media (min-width: 768px) {
+        font-size: 16px;
+        padding: 12px;
+    }
+  
+    /* Hover and focus styles */
+    &:hover,
+    &:focus {
+        background-color: #000000;
+        color: #ffffff;
+        /* border-color: #ffffff; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+}

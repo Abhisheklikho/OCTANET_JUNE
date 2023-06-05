@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.about-section .about .card1 .about-heading{
+    padding: 8px;
+    font-size: 18px;
+}
+
+.about-section .about .card1 .about-container p{ color:#502d2d;
+    padding: 8px;
+   font-size: 14px;
+line-height: 16px;
+}
+  
+
+.about-section .about .card1 .about-container p:hover{ color:#ffffff;
+    padding: 8px;
+   font-size: 18px;
+   transition: 0.3s;
+
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.card2 .baio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    
+}
+.card2 .baio h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-style: italic;
+   color: #502d2d;
+       
+  
+}
+.card2 .baio h6{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-section .about .card2 .pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 0px 30px 0px;
+    background-color: gray;
+    /*  your profile image */
+    background-image: url('./images/abhi.jpg');
+    background-size: cover;
+    background-position: center;
+  
+    /* size for larger screens */
+    @media (min-width: 768px) {
+      width: 100px;
+      height: 100px;
+    }
+
+  }
+
+  .about-section .about .card2 #tome{
+  display: flex;
+   gap: 10px;
+  }
+  
+ 
+.about-section .about .card2 #tome a{
+   
+      padding: 5px 5px 5px 5px;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #502d2d;
+      width: 100px;
+    }
+
+.about-section .about .card2 #tome .message{
+    background-color: #f7c299;
+    transition: 0.5s;
+    border-radius: 4px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.about-section .about .card2 #tome .message:hover{
+    background-color: #ae5a5a75;
+    border: 1px solid #f7c299;
+    border-radius: 4px;
+    color: #ffffff;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.about-section .about .card2 #tome .following{
+    background-color: #ae5a5a75;
+    border: 1px solid #f7c299;
+    border-radius: 4px;
+    color: #ffffff;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.about-section .about .card2 #tome .following:hover{
+    background-color: #f7c299;
+    transition: 0.5s;
+    
+    border-radius: 4px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.about-section .about .card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about-section .about .card3 .heading{
+    padding: 6px;
+    font-size: 23px;
+}
+
+
+.about-section .about .card3 p{
+   color:#502d2d;
+    padding: 6px;
+   font-size: 20px;
+   
+  }
+  /* .about-section .about .card3 .line-spacing{
+   margin: 10px;
+   } */
+
+   .about-section .about .card3 p:hover{
+    color:#ffffff;
+     padding: 9px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 10px;
+    transition:  0.3s;
+   }
+
+
+   
